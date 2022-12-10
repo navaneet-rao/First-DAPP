@@ -1,8 +1,0 @@
-print("Hello Biatchhhhhh!!!!")
-print("Hello Biatchhhhhh!!!!")
-print("Hello Biatchhhhhh!!!!")
-print("Hello Biatchhhhhh!!!!")
-print("Hello Biatchhhhhh!!!!")
-print("Hello Biatchhhhhh!!!!")
-print("hi ")
-print(gandu)
