@@ -14,6 +14,9 @@ class App extends Component {
     const network = await web3.eth.net.getNetworkType();
     const accounts = await web3.eth.getAccounts();
     console.log("account:", accounts[0]);
+    console.log("network:", network);
+
+    
   }
 
   constructor(props) {
