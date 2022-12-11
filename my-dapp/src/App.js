@@ -10,9 +10,6 @@ function App() {
       
       {/* <Header /> */}
       {/* <Chat /> */}
-      <body>
-          <h1>hi</h1>
-      </body>
     </div>
   );
 }
