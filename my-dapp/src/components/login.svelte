@@ -3,12 +3,27 @@
 
   let username;
   let password;
+
+  function login() {
+    user.auth(username, password, ({ err }) => err && alert(err));
+  }
+
+  function sighup() {
+    user.create(username, password, ({ err }) => {
+      if (err) {
+        alert(err);
+      } else {
+        login();
+      }
+    });
+  }
 </script>
 
 <label for="username">username</label>
 <input name="username" bind:value={username} minlength="3" maxlength="16" />
 
 <label for="password">password</label>
-<input name="passwoed" bind:value={password} type="password" />
+<input name="password" bind:value={password} type="password" />
 
-<button>Login</button>
+<button class="login" on:click={login}>Login</button>
+<button class="login" on:click={sighup}>Sign up</button>
